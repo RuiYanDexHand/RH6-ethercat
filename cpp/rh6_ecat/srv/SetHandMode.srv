@@ -1,0 +1,7 @@
+# 设置手部模式服务
+int32 hand_index    # 手部索引：0=左手，1=右手
+int32 mode          # 手部模式：0=位置控制，1=速度控制，2=力矩控制
+---
+bool success        # 是否成功
+string message      # 状态消息
+

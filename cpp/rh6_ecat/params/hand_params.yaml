@@ -1,0 +1,5 @@
+rh6_ecat:
+  ros__parameters:
+    period_ms: 10       # 10ms 周期，适合共享内存通信
+    shm_name: "/ethercat_data"  # 共享内存名称
+    hand_index: 1       # 手部索引：0=左手，1=右手

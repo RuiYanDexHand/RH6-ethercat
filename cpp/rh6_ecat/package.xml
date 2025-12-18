@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rh6_ecat</name>
+  <version>0.0.1</version>
+  <description>RH6 hand communication package with EtherCAT backend for RyHand control.</description>
+
+  <maintainer email="user@example.com">user</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rh6_msg</depend>
+  <depend>rh6_cmd</depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <build_depend>ethercat</build_depend>
+  <exec_depend>ethercat</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+
